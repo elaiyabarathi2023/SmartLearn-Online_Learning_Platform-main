@@ -1,0 +1,44 @@
+{
+  "name": "smartlearn",
+  "version": "1.0.0",
+  "description": "MERN Stack Application",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "node ./build/server.js",
+    "start": "tsc && npm run dev"
+  },
+  "keywords": [
+    "express",
+    "typescript",
+    "rest",
+    "api",
+    "restapi",
+    "node",
+    "nodejs",
+    "crud"
+  ],
+  "author": "Jithin",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.1",
+    "@types/cors": "^2.8.15",
+    "@types/express": "^4.17.20",
+    "@types/jsonwebtoken": "^9.0.4",
+    "@types/multer": "^1.4.9",
+    "@types/node": "^20.8.9",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cloudinary": "^1.41.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.3",
+    "multer": "^1.4.5-lts.1"
+  }
+}
